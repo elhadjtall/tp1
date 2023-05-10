@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
-    <script scr="/js/validation.js" defer ></script>
     <title>IINSCRIPTION</title>
 </head>
 <body>
     <h1>INSCRIPTION</h1>
-    <form action="traitement" method="POST" id="inscrire" novalidate>
+    <form action="traitement.php" method="POST" id="inscrire" novalidate>
         <div>
             <label for="">VOTRE NOM ET PRENOM</label>
             <input type="text" name="nom" id="nom" id="nom" placeholder="Votre nom et prenom">
